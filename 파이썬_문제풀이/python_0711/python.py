@@ -62,4 +62,3 @@ print(b,a)
 s = input()
 s = str(s)
 print(s,s,s)
-#6018

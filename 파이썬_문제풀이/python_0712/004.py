@@ -10,7 +10,7 @@ mul = 1
 #print(mul)
 
 #while문
-while a < n+1:
-    mul = mul*a
+while a < n + 1:
+    mul = mul * a
     a += 1
 print(mul)
