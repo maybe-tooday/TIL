@@ -47,7 +47,7 @@ h = float(h)
 print(h)
 print(h)
 print(h)
-#6015 input().split() 한반에 입력하기
+#6015 input().split() 한번에 입력하기
 a, b = input().split()
 a = int(a)
 b = int(b)
