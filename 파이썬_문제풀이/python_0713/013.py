@@ -6,7 +6,15 @@ word_rev = ''
 
 for i in word:
     word_rev =  i + word_rev 
-    print(word_rev)
+    #print(word_rev)
 
 print(word)
 print(word_rev)
+
+# 2.pythonic
+#print(word[::-1])
+#print(reversed(word))
+
+# 3.index
+# range(len(word))
+# print(word[len(word)-i-1],end='')
