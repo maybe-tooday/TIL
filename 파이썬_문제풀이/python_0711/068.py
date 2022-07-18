@@ -12,3 +12,5 @@ else :
       print('C')
     else :
       print('D') 
+
+      ##esle if = elif조건식 사용가능!
