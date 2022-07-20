@@ -5,7 +5,7 @@ numbers = [0, 20, 100, 40 ]
 numbers = list(set(numbers)) #중복된 숫자 없어짐
 
 max_num_1 = numbers[0] #변수를 조건안에서 찾아서 대입하는게 좋은거 같다
-max_num_2 = numbers[0]
+max_num_2 = numbers[0] #float("-inf") : 무수히 작은수
 
 for i in numbers:
     if i > max_num_1:

@@ -3,17 +3,19 @@
 
 T = int(input())
 
-for t in range(1,T+1): #테스트케이스 반복문
-    p, q, r, s, w = map(int,input().split())
+for t in range(1, T+1): #테스트케이스 반복문
+    p, q, r, s, w = map(int, input().split())
     result = 0 #수도세
-    if w <= r:
-        if (p * w) >= q:
+    if w <= r:  
+        if (p*w) >= q:
             result = q
         else:
-            result = (p * w)
+            result = (p*w)
     if w > r:
-        if (p * w) >= q + ((w-r) * s):
+        if (p*w) >= q + ((w-r) * s):
             result = q + ((w-r) * s)
         else:
-            result = (p * w)
+            result = (p*w)
     print(f'#{t}', result)
+
+    # A,B를 가격으로 변수선언 하여 B만if함수사용하여 result = min(A, B)로 바로 출력!!!
