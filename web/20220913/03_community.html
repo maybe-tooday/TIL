@@ -13,7 +13,7 @@
   <nav class="navbar navbar-expand-lg bg-dark">
     <div class="container-fluid">
       <a class="navbar-brand" href="#">
-        <img href="/01_nav_footer.html" src="./images/logo.png" alt="logo" width="70">
+        <img href="./01_nav_footer.html" src="./images/logo.png" alt="logo" width="70">
       </a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -27,37 +27,94 @@
             <a class="nav-link text-secondary" href="./03_community.html">Community</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link text-secondary"data-toggle="modal" href="#myModal">Login</a>
+            <a class="nav-link text-secondary" href="#" role="button" data-bs-toggle="modal" data-bs-target="#staticBackdrop">Login</a>
+            
             <!-- Modal -->
-            <!-- <div class="modal hide" id="myModal">
-              <div class="modal-header">
-                  <button class="close" data-dismiss="modal">x</button>
-                    <h3>Modal header</h3>
-              </div>
-                <div class="modal-body">
-                  <input type="text" class="body-contents" id="contents" />
-                    <textarea class="body-contents" id="text-contents"></textarea>
+            <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                    <form>
+                      <div class="mb-3">
+                        <label for="email-name" class="col-form-label">Email address</label>
+                        <input type="text" class="form-control" id="email-name">
+                        <p class="small-font">We'll never share your email with else.</p>
+                      </div>
+                      <div class="mb-3">
+                        <label for="password" class="col-form-label">Password</label>
+                        <input type="password" class="form-control" id="password">
+                        <input id="check" type="checkbox" name="modal-title">
+                        <label for="check">Check me out</label>
+                      </div>
+                    </form>
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Submit</button>
+                  </div>
                 </div>
-            </div>             -->
+              </div>
+            </div>
           </li>
         </ul>
       </div>
     </div>
   </nav>
-  <div class="list-group2">
-    <h2 class="community">
+  <div class="m-1">
+    <h2 class="my-5 text-center">
       Community
     </h2>
     <div >
-      <div class="list-group">
+      <div class="list-group d-flex justify-content-center">
         <a href="#" class="list-group-item list-group-item-action text-primary">Boxoffice</a>
         <a href="#" class="list-group-item list-group-item-action text-primary">Movies</a>
         <a href="#" class="list-group-item list-group-item-action text-primary">Genres</a>
         <a href="#" class="list-group-item list-group-item-action text-primary">Actors</a>
       </div>
     </div>
-    <div>
-
+    <div class="card my-3">
+      <div class="card-body">
+        <h3 class="card-title">Best Movie Ever</h3>
+        <h4 class="card-subtitle my-1">Great Movie Title</h4>
+        <p class="card-text">user</p>
+        <p class="card-text pt-2">1 minute ago</p>
+      </div>
+    </div>
+    <div class="card my-3">
+      <div class="card-body">
+        <h3 class="card-title">Movie Test</h3>
+        <h4 class="card-subtitle my-1">Great Movie Title</h4>
+        <p class="card-text">user</p>
+        <p class="card-text pt-2">1 minute ago</p>
+      </div>
+    </div>
+    <div class="card my-3">
+      <div class="card-body">
+        <h3 class="card-title">Movie Test</h3>
+        <h4 class="card-subtitle my-1">Great Movie Title</h4>
+        <p class="card-text">user</p>
+        <p class="card-text pt-2">1 minute ago</p>
+      </div>
+    </div>
+    <div class="card my-3">
+      <div class="card-body">
+        <h3 class="card-title">Movie Test</h3>
+        <h4 class="card-subtitle my-1">Great Movie Title</h4>
+        <p class="card-text">user</p>
+        <p class="card-text pt-2">1 minute ago</p>
+      </div>
+    </div>
+    <div class="card my-3">
+      <div class="card-body">
+        <h3 class="card-title">Movie Test</h3>
+        <h4 class="card-subtitle my-1">Great Movie Title</h4>
+        <p class="card-text">user</p>
+        <p class="card-text pt-2">1 minute ago</p>
+      </div>
     </div>
   </div>
 
@@ -66,5 +123,7 @@
   <footer class="footer">
     Web-bootstrap
   </footer>
+  <!-- JavaScript Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
 </body>
 </html>

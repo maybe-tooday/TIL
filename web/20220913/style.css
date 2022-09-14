@@ -1,7 +1,6 @@
 .footer{
   font-size: 12px;
   height: 40px;
-  /* width: 100% */
   display:flex;
   justify-content: center;
   align-items: center;
@@ -10,18 +9,6 @@
   /* z-index: 10; */
 }
 
-.boxoffice{
-  display:flex;
-  margin: 1rem;
-  justify-content: center;
-}
-
-.community{
-  display:flex;
-  margin: 1rem;
-  justify-content: center;
-}
-
-.list-group2{
-  margin: 1rem;
+.small-font{
+  font-size: 12px;
 }
